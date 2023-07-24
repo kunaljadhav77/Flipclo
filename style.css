@@ -1,0 +1,62 @@
+
+
+
+.navbar-brand img {
+    width: 80px;
+    
+}
+
+form [type=search]{
+    width: 500px;
+}
+
+/* Remove default input styles */
+input[type="email"] {
+    border: none; /* Remove the default border */
+    outline: 1px; /* Remove the default outline */
+    background: none; /* Remove any background color */
+    display: block; /* Make the input element a block-level element */
+    width: 100%; /* Set the width to 100% of its container */
+    padding: 0; /* Remove any padding */
+    margin: 0; /* Remove any margin */
+  }
+  
+  /* Add the underline effect */
+  input[type="email"]:focus {
+    border-bottom: 1px solid black; /* Add a 1px solid black underline on focus */
+  }
+  
+
+  .btn-orange-gang{ 
+   
+    color: aliceblue;
+    background-color: rgb(247, 78, 17);
+  width: 200px;
+  border: none;
+
+}
+
+.btn-white-exis{
+    background-color: rgb(255, 255, 255);
+    color: rgb(65, 65, 212);
+    border-width: 2px;
+    
+}
+
+.navbar-list-all{
+  display: flex;
+  flex-direction: row;
+   
+}
+
+.navbar{
+    border-bottom: 2px solid black;
+   
+}
+
+    .list-of-electro{
+        justify-content: space-around;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+    }
